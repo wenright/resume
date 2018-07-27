@@ -1,0 +1,87 @@
+html {
+  width: 8.5in;
+  height: 11in;
+  max-height: 11in;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 0.2in;
+}
+
+li {
+  margin: 0;
+}
+
+ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+i {
+  color: #777;
+}
+
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.header {
+  background-color: #333;
+  height: 1.5in;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  align-self: center;
+  margin-bottom: 0;
+}
+
+.number {
+
+}
+
+.left-column {
+  position: absolute;
+  text-align: right;
+  top: 1.75in;
+  left: 0.25in;
+  width: 2.25in;
+  height: 9.25in;
+}
+
+.left-column h4 {
+  margin-bottom: 0;
+}
+
+.right-column {
+  position: absolute;
+  top: 1.75in;
+  left: 3in;
+  width: 5.25in;
+  height: 9.25in;
+}
+
+.location {
+  display: inline;
+  position: absolute;
+  color: #777;
+  margin-left: 0.1in;
+}
+
+.date {
+  display: inline;
+  position: absolute;
+  right: 0;
+  color: #777;
+}

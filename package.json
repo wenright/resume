@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "will's resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenright/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenright/resume/issues"
+  },
+  "homepage": "https://github.com/wenright/resume",
+  "devDependencies": {
+    "puppeteer": "^1.6.0"
+  }
+}
