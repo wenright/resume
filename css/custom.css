@@ -2,6 +2,7 @@ html {
   width: 8.5in;
   height: 11in;
   max-height: 11in;
+  font-size: xx-small;
 }
 
 h4 {
@@ -36,7 +37,7 @@ hr {
 
 .header {
   background-color: #333;
-  height: 1.5in;
+  height: 1in;
   color: white;
   display: flex;
   justify-content: center;
@@ -53,10 +54,9 @@ hr {
 
 .left-column {
   position: absolute;
-  text-align: right;
-  top: 1.75in;
-  left: 0.25in;
-  width: 2.25in;
+  top: 1.25in;
+  left: 0.5in;
+  width: 2in;
   height: 9.25in;
 }
 
@@ -66,8 +66,9 @@ hr {
 
 .right-column {
   position: absolute;
-  top: 1.75in;
-  left: 3in;
+  top: 1.25in;
+  /* left: 3in; */
+  right: 0.5in;
   width: 5.25in;
   height: 9.25in;
 }
@@ -84,4 +85,17 @@ hr {
   position: absolute;
   right: 0;
   color: #777;
+}
+
+.table {
+  display: flex;
+}
+
+.table-left {
+  padding-right: 8px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
 }
