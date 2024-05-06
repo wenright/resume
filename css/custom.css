@@ -95,6 +95,10 @@ hr {
   padding-right: 8px;
 }
 
+.table--icons > .table-left, .table--icons > .table-right {
+  width: 50%;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
