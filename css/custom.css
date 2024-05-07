@@ -6,7 +6,7 @@ html {
 }
 
 h4 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.05in;
 }
 
 ul {
@@ -57,22 +57,24 @@ hr {
   position: absolute;
   top: 1.25in;
   left: 0.5in;
-  width: 1.95in;
+  width: 5.25in;
   height: 9.25in;
 }
 
 .left-column h4 {
-  margin-top: 0.25in;
   margin-bottom: 0.05in;
 }
 
 .right-column {
   position: absolute;
   top: 1.25in;
-  /* left: 3in; */
   right: 0.5in;
-  width: 5.25in;
+  width: 1.95in;
   height: 9.25in;
+}
+
+.right-column h4 {
+  margin-top: 0.25in;
 }
 
 .location {
@@ -89,7 +91,7 @@ hr {
   color: #777;
 }
 
-.left-column .date {
+.right-column .date {
   position: relative;
   margin-left: 0.05in;
 }
