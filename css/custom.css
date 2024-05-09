@@ -28,6 +28,7 @@ p {
 
 i {
   color: #777;
+  margin-right: 0.1in;
 }
 
 hr {
@@ -73,7 +74,7 @@ hr {
   height: 9.25in;
 }
 
-.right-column h4 {
+.right-column h4:not(:first-child) {
   margin-top: 0.25in;
 }
 
@@ -98,14 +99,12 @@ hr {
 
 .table {
   display: flex;
+  flex-direction: column;
+  font-size: medium;
 }
 
 .table-left {
   padding-right: 8px;
-}
-
-.table--icons > .table-left, .table--icons > .table-right {
-  width: 50%;
 }
 
 .projects {
