@@ -40,10 +40,18 @@ hr {
 
 .header {
   background-color: #333;
-  height: 1in;
+  height: 2.25in;
+  width: 2.25in;
+  padding: 0.5in;
   color: white;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.header h4 {
+  color: #999;
+  font-size: 18px;
 }
 
 .name {
@@ -57,7 +65,7 @@ hr {
 
 .left-column {
   position: absolute;
-  top: 1.25in;
+  top: 0.25in;
   left: 0.5in;
   width: 5.25in;
   height: 9.25in;
@@ -69,9 +77,9 @@ hr {
 
 .right-column {
   position: absolute;
-  top: 1.25in;
+  top: 0.25in;
   right: 0.5in;
-  width: 1.95in;
+  width: 2.75in;
   height: 9.25in;
 }
 
