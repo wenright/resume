@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
     // Allows downloading of Google fonts
     waitUntil: 'networkidle0'
   });
-  await page.pdf({path: 'resume.pdf', printBackground: true});
+  await page.pdf({path: 'will_enright_resume.pdf', printBackground: true});
 
   await browser.close();
 })();
