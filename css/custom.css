@@ -38,6 +38,10 @@ hr {
   border:none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   background-color: #333;
   height: 1in;
@@ -109,6 +113,7 @@ hr {
   flex-direction: column;
 }
 
-a {
-  text-decoration: none;
+.light {
+  color: #777;
+  margin-bottom: 0;
 }
